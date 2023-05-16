@@ -18,7 +18,7 @@ Projeto criado no evento da Rocketseat NLW-Spacetime
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 ```
-git clone 
+git clone git@github.com:ur4sh1/-SERVER-Spacetime---NLW-Rocketseat.git
 ```
 Instalar o npm
 ```
@@ -76,26 +76,26 @@ Instalando o prisma como dependencia de desenvolvimento
 ```
 npm i prisma -D
 ```
-
-
-
-
-
-Instalando o @prisma/client
-```
-npm i @prisma/client
-```
 Instalando plugin SQLite
 ```
 npx prisma init --datasource-provider SQLite
 ```
-Instalar o @fastify/cors (mecanismo de segurança que valida quem pode consumir ou não a API)
-```
-npm i @fastify/cors
-```
 Comando de criação de tabela com o prisma
 ```
 npx prisma migrate dev
+```
+Instalando o @prisma/client
+```
+npm i @prisma/client
+```
+
+
+
+-----old project
+
+Instalar o @fastify/cors (mecanismo de segurança que valida quem pode consumir ou não a API)
+```
+npm i @fastify/cors
 ```
 Comando para vizualizar o banco de dados pelo prisma no navegador
 ```
