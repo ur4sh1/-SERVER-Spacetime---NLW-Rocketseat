@@ -95,3 +95,15 @@ Instalando cors
 ```
 npm i @fastify/cors
 ```
+Instalando dotenv como dependencia de desenvolvimento
+```
+npm i dotenv -D
+```
+Instalando o axios para requisições http
+```
+npm i axios
+```
+Instalando o jwt
+```
+npm i @fastify/jwt
+```
